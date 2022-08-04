@@ -284,7 +284,7 @@
       <!--MultiDisksEnd-->
       <div class="mdui-divider"></div>
       <!--MultiDiskAreaEnd-->
-      <a target="_blank" href="https://github.com/qkqpttgf/OneManager-php" class="mdui-list-item mdui-ripple">
+      <a target="_blank" href="https://github.com/hang2048" class="mdui-list-item mdui-ripple">
         <i class="mdui-list-item-icon mdui-icon material-icons">code</i>
         <div class="mdui-list-item-content">Github</div>
       </a>
@@ -352,7 +352,7 @@
       <br />
       <center>
         <div class="mdui-typo-title">
-          這是一個受保護的資料夾，您需要提供訪問密碼才能檢視。
+          文件夹受保护，请提供访问密码！
         </div>
       </center>
       <form action="" method="post">
@@ -535,7 +535,7 @@
       <img class="mdui-img-fluid mdui-center" src="<!--FileDownUrl-->" />
       <!--IsimgFileEnd-->
       <!--IsmusicFileStart-->
-      <div id="aplayer" class="mdui-text-center">音樂載入中...</div>
+      <div id="aplayer" class="mdui-text-center">音乐载入中...</div>
       <br />
       <div class="mdui-row" id="clpp">
         <a id="openiina" href="" type="button" class="clp mdui-btn mdui-ripple">IINA</a>
@@ -577,7 +577,7 @@
             if(ap.audio.duration > 0){
               if(localStorage.getItem(path + "/" + "<!--FileDownUrl-->") != null && localStorage.getItem(path + "/" + "<!--FileDownUrl-->") != 'null'){
                 ap.seek(localStorage.getItem(path + "/" + "<!--FileDownUrl-->") - 5);
-                mdui.snackbar('已恢復至上次播放位置');
+                mdui.snackbar('已恢复至上次播放位置');
                 isRecover = true;
               }else{
                 isRecover = true;
@@ -681,7 +681,7 @@
             if(dp.video.duration > 0 && dp.video.duration != NaN){
               if(localStorage.getItem(path + "/" + "<!--FileDownUrl-->") != null && localStorage.getItem(path + "/" + "<!--FileDownUrl-->") != 'null'){
                 dp.seek(localStorage.getItem(path + "/" + "<!--FileDownUrl-->") - 5);
-                mdui.snackbar('已恢復至上次播放位置');
+                mdui.snackbar('已恢复至上次播放位置');
                 isRecover = true;
               }else{
                 isRecover = true;
